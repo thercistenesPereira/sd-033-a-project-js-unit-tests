@@ -25,11 +25,11 @@ const circle = (radius) => {
 
   return {
     radius,
-    area: parseFloat((PI * radius * radius).toPrecision(4)),
+    area: parseFloat((PI * radius * radius).toPrecision(5)),
     circumference: parseFloat((2 * PI * radius).toPrecision(4)),
   };
 };
 
-console.log(circle(3));
+console.log(circle(7));
 
 module.exports = circle;
